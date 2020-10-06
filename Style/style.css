@@ -2,19 +2,28 @@
     height: 400px;
     width: 100%;
     border-style: solid;
+    border-color:lightgray;
     border-width: 2px;
+    background-color: gray;
+    margin-top:5%;
+    border-radius: 3%;
 }
 #display{
     border-style: solid;
     border-width: 1px;
+    border-color: lightgrey;
     height: 50px;
     margin-top: 15px;
     margin-right:2px;
     margin-left: 2px;
+    background-color: lightblue;
 }
 .buttons{
     margin-top: 20px;
 }
 button{
-    width: 65px;
+    width: 59px;
+}
+h1{
+    float: right;
 }

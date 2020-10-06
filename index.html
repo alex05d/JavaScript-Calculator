@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/a3913268be.js" crossorigin="anonymous"></script>
     <title>JS Calculator</title>
 </head>
 
@@ -16,53 +17,56 @@
             <span class="navbar-brand mb-0 h1">JavaScript Calculator</span>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+        <!-- <div class="jumbotron jumbotron-fluid"> -->
+        <div class="container">
 
-                <div class="row">
-                    <div class="col-md-4 container-fluid" id="calculator">
-                        <div class="row text-right" id="display">
+            <div class="row">
+                <div class="col-md-3 container-fluid" id="calculator">
+                    <div class="text-right" id="display">
+                        <span class="text-right">
                             <h1>0</h1>
+                        </span>
+                    </div>
 
-                        </div>
-
-                        <div class="buttons">
-                            <button type="button" class="btn-sm btn-dark">%</button>
-                            <button type="button" class="btn-sm btn-dark">CE</button>
-                            <button type="button" class="btn-sm btn-dark">C</button>
-                            <button type="button" class="btn-sm btn-dark">Primary</button>
-                        </div>
-                        <div class="buttons">
-                            <button type="button" class="btn-sm btn-dark">7</button>
-                            <button type="button" class="btn-sm btn-dark">8</button>
-                            <button type="button" class="btn-sm btn-dark">9</button>
-                            <button type="button" class="btn-sm btn-dark">x</button>
-                        </div>
-                        <div class="buttons">
-                            <button type="button" class="btn-sm btn-dark">4</button>
-                            <button type="button" class="btn-sm btn-dark">5</button>
-                            <button type="button" class="btn-sm btn-dark">6</button>
-                            <button type="button" class="btn-sm btn-dark">-</button>
-                        </div>
-                        <div class="buttons">
-                            <button type="button" class="btn-sm btn-dark">1</button>
-                            <button type="button" class="btn-sm btn-dark">2</button>
-                            <button type="button" class="btn-sm btn-dark">3</button>
-                            <button type="button" class="btn-sm btn-dark">+</button>
-                        </div>
-                        <div class="buttons">
-                            <button type="button" class="btn-sm btn-dark">%</button>
-                            <button type="button" class="btn-sm btn-dark">0</button>
-                            <button type="button" class="btn-sm btn-dark">.</button>
-                            <button type="button" class="btn-sm btn-dark">=</button>
-                        </div>
-
+                    <div class="buttons">
+                        <button type="button" class="btn-sm btn-dark">%</button>
+                        <button type="button" class="btn-sm btn-dark">CE</button>
+                        <button type="button" class="btn-sm btn-dark">C</button>
+                        <button type="button" class="btn-sm btn-dark">
+                            <i class="fas fa-backspace"></i>
+                        </button>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="btn-sm btn-dark">7</button>
+                        <button type="button" class="btn-sm btn-dark">8</button>
+                        <button type="button" class="btn-sm btn-dark">9</button>
+                        <button type="button" class="btn-sm btn-dark">x</button>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="btn-sm btn-dark">4</button>
+                        <button type="button" class="btn-sm btn-dark">5</button>
+                        <button type="button" class="btn-sm btn-dark">6</button>
+                        <button type="button" class="btn-sm btn-dark">-</button>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="btn-sm btn-dark">1</button>
+                        <button type="button" class="btn-sm btn-dark">2</button>
+                        <button type="button" class="btn-sm btn-dark">3</button>
+                        <button type="button" class="btn-sm btn-dark">+</button>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="btn-sm btn-dark">%</button>
+                        <button type="button" class="btn-sm btn-dark">0</button>
+                        <button type="button" class="btn-sm btn-dark">.</button>
+                        <button type="button" class="btn-sm btn-dark">=</button>
                     </div>
 
                 </div>
 
             </div>
+
         </div>
+        <!-- </div> -->
     </div>
 
 </body>
